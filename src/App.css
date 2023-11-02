@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  position: relative;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.note_area {
+  resize: none;
+  box-sizing: border-box;
+  width: 450px;
+  height: 150px;
+  padding: 12px;
+}
+
+.add_btn {
+  position: absolute;
+  right: 8px;
+  bottom: 12px;
+}
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.note {
+  background-color: blanchedalmond;
+  color: #000;
+  border-radius: 10px;
+  margin: 12px;
+  padding: 16px;
+  width: 250px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 0 24px 0 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
